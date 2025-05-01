@@ -2,14 +2,14 @@ The application is a simple online store using a free API. It is used to browse 
 
 You can visit the website at the link:
 
-<a>https://bgal23.github.io/droplabs_task/</a>
+<a>https://bgal23.github.io/task_2025/</a>
 
 Or run it on your own computer
 
 <ol>
 <li>Download the repository.</li>
 <li>Run the development server <code>npm run dev</code>.</li>
-<li>Open <a>http://localhost:5173/droplabs_task</a>.</li>
+<li>Open <a>http://localhost:5173/task_2025</a>.</li>
 </ol>
 
 Have fun 😊
