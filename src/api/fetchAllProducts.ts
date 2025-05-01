@@ -7,7 +7,12 @@ const fetchAllProducts = async () => {
     const res = await axios.get(`/products`);
     return res.data;
   } catch (error) {
-    console.log(error);
+    if (axios.isAxiosError(error)) {
+      console.error("Axios error:", error.response?.data || error.message);
+    } else {
+      console.error("Unexpected error:", error);
+    }
+    throw new Error("Failed to fetch products. Please try again later.");
   }
 };
 
